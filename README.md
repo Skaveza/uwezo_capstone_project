@@ -1,1 +1,0 @@
-# uwezo_capstone_project
