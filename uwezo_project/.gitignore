@@ -1,0 +1,38 @@
+# Create the gitignore file
+cat > .gitignore << 'EOF'
+# Virtual environment
+env/
+venv/
+.venv/
+
+# Data directories
+data/
+outputs/
+
+# Model files
+models/checkpoints/
+models/final/
+models/outputs/
+models/samples/
+
+# Large files
+*.pkl
+*.pickle
+*.joblib
+*.h5
+*.hdf5
+*.model
+*.pth
+*.pt
+*.bin
+*.onnx
+
+# System files
+__pycache__/
+*.pyc
+.DS_Store
+.ipynb_checkpoints/
+EOF
+
+# Add gitignore first
+git add .gitignore
