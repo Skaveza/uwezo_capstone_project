@@ -24,11 +24,10 @@ models/samples/
 *.bin
 *.onnx
 
-data/synthetic/
-data/synthetic_part1
-data/synthetic_part2
-data/synthetic_part3
-data/synthetic_part4
+data/**
+
+# But allow CSV files
+!data/**/*.csv
 
 # System files
 __pycache__/
