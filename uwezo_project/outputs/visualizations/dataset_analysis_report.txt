@@ -1,0 +1,41 @@
+SYNTHETIC DATASET ANALYSIS REPORT
+==================================================
+
+OVERVIEW
+--------------------
+Total documents: 20,000
+National IDs: 10,000
+Bank Statements: 10,000
+Number of batches: 4
+
+QUALITY DISTRIBUTION
+-------------------------
+quality
+excellent    7947
+good         6086
+fair         3962
+poor         2005
+
+NATIONAL ID DEMOGRAPHICS
+----------------------------
+Ethnic groups: 11
+Districts: 23
+Gender distribution:
+sex
+F    5093
+M    4907
+
+BANK STATEMENT ANALYSIS
+-------------------------
+Banks represented: 10
+Avg transactions per statement: 15.8
+Min transactions: 11.0
+Max transactions: 23.0
+
+DATA QUALITY ASSESSMENT
+-------------------------
+✓ All batches validated
+✓ File integrity confirmed
+✓ Balanced distribution across document types
+✓ Realistic Kenyan demographic representation
+✓ Quality degradation applied appropriately
