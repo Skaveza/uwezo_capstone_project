@@ -5,9 +5,6 @@ env/
 venv/
 .venv/
 
-# Data directories
-data/
-outputs/
 
 # Model files
 models/checkpoints/
@@ -26,6 +23,12 @@ models/samples/
 *.pt
 *.bin
 *.onnx
+
+data/synthetic/
+data/synthetic_part1
+data/synthetic_part2
+data/synthetic_part3
+data/synthetic_part4
 
 # System files
 __pycache__/

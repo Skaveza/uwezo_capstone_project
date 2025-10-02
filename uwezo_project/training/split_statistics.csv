@@ -1,4 +1,3 @@
-split,total,national_ids,bank_statements
-train,70,39,31
-val,15,6,9
-test,15,5,10
+version https://git-lfs.github.com/spec/v1
+oid sha256:ca4e8ad7395a6b60bd389821b28d6d2354bca40ec32b1e14eaf3b1a8b43b4320
+size 80
