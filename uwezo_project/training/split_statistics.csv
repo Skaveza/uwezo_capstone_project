@@ -1,0 +1,4 @@
+split,total,national_ids,bank_statements
+train,70,39,31
+val,15,6,9
+test,15,5,10
