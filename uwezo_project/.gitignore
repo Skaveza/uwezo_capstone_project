@@ -4,6 +4,7 @@ cat > .gitignore << 'EOF'
 env/
 venv/
 .venv/
+env311
 
 
 # Model files
