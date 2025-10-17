@@ -1,3 +1,0 @@
-*.pt !text !filter !merge !diff
-*.onnx !text !filter !merge !diff
-*.pdf !text !filter !merge !diff
