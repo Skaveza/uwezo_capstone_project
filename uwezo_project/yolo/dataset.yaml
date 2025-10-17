@@ -1,0 +1,14 @@
+path: /Volumes/Peach/uwezo_capstone_project/uwezo_project/yolo
+train: images/train
+val: images/val
+
+names:
+  0: table_transactions_data
+  1: table_transactions_header
+  2: account_holder_name
+  3: bank_name
+  4: account_number
+  5: statement_period
+  6: opening_balance
+  7: currency
+  8: doc_type

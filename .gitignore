@@ -1,0 +1,36 @@
+# OS / editors
+.DS_Store
+*.swp
+.idea/
+.vscode/
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv*/
+.env
+*.log
+
+# Node / frontend
+node_modules/
+*.tsbuildinfo
+dist/
+build/
+
+# ---- Uwezo project data & artifacts (scoped to the subfolder) ----
+uwezo_project/data/**/*
+!uwezo_project/data/README.md
+
+uwezo_project/yolo/**/*
+!uwezo_project/yolo/dataset.yaml
+
+# Common training outputs
+runs/
+outputs/
+artifacts/
+*.pt
+*.onnx
+
+# EDA image dumps
+*_viz_*.jpg
