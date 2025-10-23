@@ -1,7 +1,3 @@
-# =====================
-# Uwezo Capstone Project
-# Backend + AI Processing
-# =====================
 
 # --- API / Web Framework ---
 fastapi>=0.111.1
@@ -17,8 +13,7 @@ pdfminer.six>=20231228
 pdfplumber>=0.10.4
 camelot-py[cv]>=1.0.9
 reportlab>=4.1.0
-pypdf<4.0,>=3.17
-
+pypdf>=4.0,<6.0
 
 # --- Vision / OCR / IE ---
 paddleocr>=2.7.0
