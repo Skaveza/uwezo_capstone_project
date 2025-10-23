@@ -1,0 +1,157 @@
+{
+  "image_path": "/Volumes/Peach/uwezo_capstone_project/uwezo_project/processed/images/test/icici-page-00023_jpg.rf.4557152469c7a69a158d0fceda608ba6.jpg",
+  "width": 604,
+  "height": 590,
+  "words": [
+    {
+      "text": "Poge",
+      "bbox": [
+        549,
+        27,
+        582,
+        64
+      ],
+      "score": 0.82
+    },
+    {
+      "text": "Lot",
+      "bbox": [
+        589,
+        27,
+        607,
+        64
+      ],
+      "score": 0.65
+    },
+    {
+      "text": "ICICI",
+      "bbox": [
+        72,
+        52,
+        153,
+        66
+      ],
+      "score": 0.85
+    },
+    {
+      "text": "Bank",
+      "bbox": [
+        158,
+        52,
+        234,
+        66
+      ],
+      "score": 0.93
+    },
+    {
+      "text": "|",
+      "bbox": [
+        231,
+        43,
+        243,
+        78
+      ],
+      "score": 0.93
+    },
+    {
+      "text": "khayaat",
+      "bbox": [
+        258,
+        54,
+        332,
+        69
+      ],
+      "score": 0.75
+    },
+    {
+      "text": "aapka",
+      "bbox": [
+        337,
+        54,
+        393,
+        69
+      ],
+      "score": 0.91
+    },
+    {
+      "text": "DAS:",
+      "bbox": [
+        132,
+        124,
+        160,
+        146
+      ],
+      "score": 0.65
+    },
+    {
+      "text": "200",
+      "bbox": [
+        772,
+        280,
+        795,
+        288
+      ],
+      "score": 0.69
+    },
+    {
+      "text": "fr",
+      "bbox": [
+        412,
+        329,
+        426,
+        364
+      ],
+      "score": 0.7
+    },
+    {
+      "text": "OL",
+      "bbox": [
+        523,
+        345,
+        532,
+        353
+      ],
+      "score": 0.76
+    },
+    {
+      "text": "|",
+      "bbox": [
+        883,
+        358,
+        889,
+        394
+      ],
+      "score": 0.82
+    },
+    {
+      "text": "mann",
+      "bbox": [
+        459,
+        445,
+        492,
+        480
+      ],
+      "score": 0.64
+    },
+    {
+      "text": "OF",
+      "bbox": [
+        499,
+        547,
+        510,
+        572
+      ],
+      "score": 0.67
+    },
+    {
+      "text": "20000",
+      "bbox": [
+        725,
+        774,
+        771,
+        809
+      ],
+      "score": 0.66
+    }
+  ]
+}

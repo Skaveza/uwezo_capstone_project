@@ -1,0 +1,107 @@
+{
+  "image_path": "/Volumes/Peach/uwezo_capstone_project/uwezo_project/processed/images/test/kotak-page-00020_jpg.rf.585bf18c9cb2a94a64b895ba6a0b43fe.jpg",
+  "width": 511,
+  "height": 565,
+  "words": [
+    {
+      "text": "SHIVAM",
+      "bbox": [
+        147,
+        9,
+        206,
+        18
+      ],
+      "score": 0.83
+    },
+    {
+      "text": "SHASWAT",
+      "bbox": [
+        215,
+        9,
+        290,
+        18
+      ],
+      "score": 0.9
+    },
+    {
+      "text": "‘Account",
+      "bbox": [
+        143,
+        13,
+        208,
+        48
+      ],
+      "score": 0.61
+    },
+    {
+      "text": "Apr",
+      "bbox": [
+        309,
+        13,
+        327,
+        48
+      ],
+      "score": 0.67
+    },
+    {
+      "text": "379",
+      "bbox": [
+        18,
+        169,
+        36,
+        176
+      ],
+      "score": 0.75
+    },
+    {
+      "text": "37)",
+      "bbox": [
+        18,
+        202,
+        35,
+        209
+      ],
+      "score": 0.68
+    },
+    {
+      "text": "Nom",
+      "bbox": [
+        292,
+        231,
+        311,
+        266
+      ],
+      "score": 0.69
+    },
+    {
+      "text": "373",
+      "bbox": [
+        18,
+        270,
+        36,
+        276
+      ],
+      "score": 0.75
+    },
+    {
+      "text": "am",
+      "bbox": [
+        60,
+        354,
+        73,
+        389
+      ],
+      "score": 0.63
+    },
+    {
+      "text": "un",
+      "bbox": [
+        135,
+        817,
+        145,
+        847
+      ],
+      "score": 0.66
+    }
+  ]
+}

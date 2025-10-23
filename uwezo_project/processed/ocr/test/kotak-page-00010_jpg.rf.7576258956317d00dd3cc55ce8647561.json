@@ -1,0 +1,127 @@
+{
+  "image_path": "/Volumes/Peach/uwezo_capstone_project/uwezo_project/processed/images/test/kotak-page-00010_jpg.rf.7576258956317d00dd3cc55ce8647561.jpg",
+  "width": 512,
+  "height": 565,
+  "words": [
+    {
+      "text": "SHIVAM",
+      "bbox": [
+        147,
+        9,
+        206,
+        18
+      ],
+      "score": 0.82
+    },
+    {
+      "text": "SHASWAT",
+      "bbox": [
+        216,
+        9,
+        290,
+        18
+      ],
+      "score": 0.91
+    },
+    {
+      "text": "Account",
+      "bbox": [
+        143,
+        13,
+        208,
+        48
+      ],
+      "score": 0.71
+    },
+    {
+      "text": "01",
+      "bbox": [
+        291,
+        28,
+        303,
+        36
+      ],
+      "score": 0.86
+    },
+    {
+      "text": "Apr",
+      "bbox": [
+        309,
+        13,
+        327,
+        48
+      ],
+      "score": 0.83
+    },
+    {
+      "text": "2022-21",
+      "bbox": [
+        332,
+        28,
+        383,
+        37
+      ],
+      "score": 0.65
+    },
+    {
+      "text": "00",
+      "bbox": [
+        562,
+        102,
+        575,
+        108
+      ],
+      "score": 0.73
+    },
+    {
+      "text": "sep",
+      "bbox": [
+        60,
+        454,
+        78,
+        463
+      ],
+      "score": 0.63
+    },
+    {
+      "text": "291,906.22",
+      "bbox": [
+        692,
+        556,
+        761,
+        565
+      ],
+      "score": 0.61
+    },
+    {
+      "text": "tes",
+      "bbox": [
+        18,
+        623,
+        36,
+        630
+      ],
+      "score": 0.61
+    },
+    {
+      "text": "Vee",
+      "bbox": [
+        18,
+        656,
+        36,
+        663
+      ],
+      "score": 0.61
+    },
+    {
+      "text": "en",
+      "bbox": [
+        151,
+        735,
+        164,
+        742
+      ],
+      "score": 0.6
+    }
+  ]
+}

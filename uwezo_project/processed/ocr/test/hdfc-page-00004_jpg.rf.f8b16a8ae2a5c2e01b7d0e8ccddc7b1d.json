@@ -1,0 +1,107 @@
+{
+  "image_path": "/Volumes/Peach/uwezo_capstone_project/uwezo_project/processed/images/test/hdfc-page-00004_jpg.rf.f8b16a8ae2a5c2e01b7d0e8ccddc7b1d.jpg",
+  "width": 640,
+  "height": 640,
+  "words": [
+    {
+      "text": "of",
+      "bbox": [
+        586,
+        270,
+        600,
+        281
+      ],
+      "score": 0.96
+    },
+    {
+      "text": "account",
+      "bbox": [
+        606,
+        262,
+        663,
+        289
+      ],
+      "score": 0.75
+    },
+    {
+      "text": "|",
+      "bbox": [
+        529,
+        390,
+        535,
+        422
+      ],
+      "score": 0.8
+    },
+    {
+      "text": "|",
+      "bbox": [
+        527,
+        496,
+        533,
+        518
+      ],
+      "score": 0.65
+    },
+    {
+      "text": "ow",
+      "bbox": [
+        674,
+        550,
+        700,
+        558
+      ],
+      "score": 0.6
+    },
+    {
+      "text": "|",
+      "bbox": [
+        393,
+        558,
+        412,
+        601
+      ],
+      "score": 0.63
+    },
+    {
+      "text": "|",
+      "bbox": [
+        527,
+        627,
+        533,
+        656
+      ],
+      "score": 0.62
+    },
+    {
+      "text": "1343-29",
+      "bbox": [
+        535,
+        799,
+        576,
+        808
+      ],
+      "score": 0.6
+    },
+    {
+      "text": "L",
+      "bbox": [
+        522,
+        886,
+        543,
+        912
+      ],
+      "score": 0.75
+    },
+    {
+      "text": "BANK",
+      "bbox": [
+        74,
+        899,
+        109,
+        909
+      ],
+      "score": 0.8
+    }
+  ]
+}

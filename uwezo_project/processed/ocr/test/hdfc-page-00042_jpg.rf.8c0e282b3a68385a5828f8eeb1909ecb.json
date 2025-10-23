@@ -1,0 +1,147 @@
+{
+  "image_path": "/Volumes/Peach/uwezo_capstone_project/uwezo_project/processed/images/test/hdfc-page-00042_jpg.rf.8c0e282b3a68385a5828f8eeb1909ecb.jpg",
+  "width": 638,
+  "height": 640,
+  "words": [
+    {
+      "text": "BANK",
+      "bbox": [
+        173,
+        27,
+        233,
+        69
+      ],
+      "score": 0.83
+    },
+    {
+      "text": "your",
+      "bbox": [
+        175,
+        45,
+        207,
+        82
+      ],
+      "score": 0.89
+    },
+    {
+      "text": "word",
+      "bbox": [
+        215,
+        45,
+        256,
+        82
+      ],
+      "score": 0.82
+    },
+    {
+      "text": "i=",
+      "bbox": [
+        508,
+        130,
+        536,
+        138
+      ],
+      "score": 0.9
+    },
+    {
+      "text": "is",
+      "bbox": [
+        508,
+        139,
+        545,
+        147
+      ],
+      "score": 0.66
+    },
+    {
+      "text": "Statement",
+      "bbox": [
+        508,
+        224,
+        578,
+        235
+      ],
+      "score": 0.71
+    },
+    {
+      "text": "of",
+      "bbox": [
+        584,
+        220,
+        600,
+        232
+      ],
+      "score": 0.92
+    },
+    {
+      "text": "|",
+      "bbox": [
+        529,
+        346,
+        536,
+        383
+      ],
+      "score": 0.71
+    },
+    {
+      "text": "|",
+      "bbox": [
+        93,
+        416,
+        100,
+        453
+      ],
+      "score": 0.77
+    },
+    {
+      "text": "|",
+      "bbox": [
+        400,
+        451,
+        416,
+        498
+      ],
+      "score": 0.61
+    },
+    {
+      "text": "aan",
+      "bbox": [
+        43,
+        536,
+        86,
+        544
+      ],
+      "score": 0.61
+    },
+    {
+      "text": "mo",
+      "bbox": [
+        668,
+        553,
+        700,
+        561
+      ],
+      "score": 0.64
+    },
+    {
+      "text": "PROM",
+      "bbox": [
+        307,
+        585,
+        340,
+        593
+      ],
+      "score": 0.75
+    },
+    {
+      "text": "|",
+      "bbox": [
+        396,
+        608,
+        413,
+        646
+      ],
+      "score": 0.61
+    }
+  ]
+}

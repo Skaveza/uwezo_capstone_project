@@ -1,0 +1,97 @@
+{
+  "image_path": "/Volumes/Peach/uwezo_capstone_project/uwezo_project/processed/images/test/icici-page-00005_jpg.rf.03871be0aa16eb3f40c9e355889b54ba.jpg",
+  "width": 640,
+  "height": 640,
+  "words": [
+    {
+      "text": "Bank",
+      "bbox": [
+        172,
+        53,
+        248,
+        71
+      ],
+      "score": 0.95
+    },
+    {
+      "text": "|",
+      "bbox": [
+        783,
+        83,
+        789,
+        118
+      ],
+      "score": 0.6
+    },
+    {
+      "text": "_",
+      "bbox": [
+        747,
+        227,
+        775,
+        234
+      ],
+      "score": 0.63
+    },
+    {
+      "text": "om",
+      "bbox": [
+        739,
+        292,
+        772,
+        326
+      ],
+      "score": 0.62
+    },
+    {
+      "text": "a7",
+      "bbox": [
+        37,
+        562,
+        48,
+        570
+      ],
+      "score": 0.67
+    },
+    {
+      "text": "19",
+      "bbox": [
+        55,
+        562,
+        66,
+        569
+      ],
+      "score": 0.67
+    },
+    {
+      "text": "to",
+      "bbox": [
+        54,
+        605,
+        65,
+        612
+      ],
+      "score": 0.85
+    },
+    {
+      "text": "Bore",
+      "bbox": [
+        208,
+        629,
+        233,
+        635
+      ],
+      "score": 0.64
+    },
+    {
+      "text": "of",
+      "bbox": [
+        501,
+        760,
+        513,
+        794
+      ],
+      "score": 0.84
+    }
+  ]
+}

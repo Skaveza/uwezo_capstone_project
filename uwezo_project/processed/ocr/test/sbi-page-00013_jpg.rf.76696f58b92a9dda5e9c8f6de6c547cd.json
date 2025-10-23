@@ -1,0 +1,107 @@
+{
+  "image_path": "/Volumes/Peach/uwezo_capstone_project/uwezo_project/processed/images/test/sbi-page-00013_jpg.rf.76696f58b92a9dda5e9c8f6de6c547cd.jpg",
+  "width": 572,
+  "height": 583,
+  "words": [
+    {
+      "text": "2020)",
+      "bbox": [
+        53,
+        231,
+        92,
+        253
+      ],
+      "score": 0.68
+    },
+    {
+      "text": "162003",
+      "bbox": [
+        453,
+        230,
+        499,
+        252
+      ],
+      "score": 0.9
+    },
+    {
+      "text": "|",
+      "bbox": [
+        512,
+        555,
+        528,
+        614
+      ],
+      "score": 0.69
+    },
+    {
+      "text": "Ape",
+      "bbox": [
+        30,
+        654,
+        53,
+        676
+      ],
+      "score": 0.85
+    },
+    {
+      "text": "2020]",
+      "bbox": [
+        59,
+        654,
+        95,
+        676
+      ],
+      "score": 0.74
+    },
+    {
+      "text": "3",
+      "bbox": [
+        104,
+        659,
+        110,
+        668
+      ],
+      "score": 0.84
+    },
+    {
+      "text": "Ape",
+      "bbox": [
+        116,
+        654,
+        139,
+        676
+      ],
+      "score": 0.69
+    },
+    {
+      "text": "TRANSFER",
+      "bbox": [
+        394,
+        659,
+        471,
+        668
+      ],
+      "score": 0.77
+    },
+    {
+      "text": "TO",
+      "bbox": [
+        477,
+        659,
+        497,
+        667
+      ],
+      "score": 0.92
+    },
+    {
+      "text": "77.00]",
+      "bbox": [
+        582,
+        659,
+        617,
+        668
+      ],
+      "score": 0.76
+    }
+  ]
+}

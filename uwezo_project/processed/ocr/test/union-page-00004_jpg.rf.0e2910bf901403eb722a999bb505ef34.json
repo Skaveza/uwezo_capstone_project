@@ -1,0 +1,77 @@
+{
+  "image_path": "/Volumes/Peach/uwezo_capstone_project/uwezo_project/processed/images/test/union-page-00004_jpg.rf.0e2910bf901403eb722a999bb505ef34.jpg",
+  "width": 640,
+  "height": 640,
+  "words": [
+    {
+      "text": "Ret",
+      "bbox": [
+        444,
+        12,
+        469,
+        22
+      ],
+      "score": 0.75
+    },
+    {
+      "text": "Mar",
+      "bbox": [
+        107,
+        179,
+        131,
+        186
+      ],
+      "score": 0.74
+    },
+    {
+      "text": "De",
+      "bbox": [
+        249,
+        168,
+        265,
+        176
+      ],
+      "score": 0.74
+    },
+    {
+      "text": "BIT",
+      "bbox": [
+        270,
+        165,
+        291,
+        174
+      ],
+      "score": 0.73
+    },
+    {
+      "text": "70.070",
+      "bbox": [
+        828,
+        124,
+        872,
+        135
+      ],
+      "score": 0.75
+    },
+    {
+      "text": "[av",
+      "bbox": [
+        216,
+        226,
+        238,
+        264
+      ],
+      "score": 0.7
+    },
+    {
+      "text": "Inv",
+      "bbox": [
+        219,
+        271,
+        235,
+        310
+      ],
+      "score": 0.81
+    }
+  ]
+}

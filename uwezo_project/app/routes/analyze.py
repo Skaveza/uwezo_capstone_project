@@ -1,3 +1,5 @@
+# app/routes/analyze.py
+
 from fastapi import APIRouter, UploadFile, File, HTTPException, Depends
 from fastapi.responses import JSONResponse
 from sqlalchemy.orm import Session
@@ -16,22 +18,22 @@ async def analyze_document(
     if file.content_type not in ["application/pdf", "image/png", "image/jpeg"]:
         raise HTTPException(status_code=415, detail="File type not supported.")
 
-    # Save upload record in database
+    # Save upload record
     upload = crud.create_upload(db, file.filename)
 
-    # Save file to disk for extraction or later reference
     with tempfile.NamedTemporaryFile(delete=False, suffix=file.filename[-4:]) as tmp:
         tmp.write(await file.read())
         tmp.flush()
-        data = extract_with_ai(tmp.name)
+        # combine extraction, inference, flagging
+        result = extract_with_ai(tmp.name)
 
-    # Update 'processed' field if extraction succeeded
     upload.processed = True
     db.commit()
 
-    # Return document's info and extraction result
-    return JSONResponse(content={
-        "id": upload.id,
-        "filename": upload.filename,
-        "result": data
-    })
+    return JSONResponse(
+        content={
+            "id": upload.id,
+            "filename": upload.filename,
+            "result": result
+        }
+    )

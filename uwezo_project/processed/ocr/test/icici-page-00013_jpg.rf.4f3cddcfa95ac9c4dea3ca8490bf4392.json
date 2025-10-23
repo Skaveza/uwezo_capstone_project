@@ -1,0 +1,117 @@
+{
+  "image_path": "/Volumes/Peach/uwezo_capstone_project/uwezo_project/processed/images/test/icici-page-00013_jpg.rf.4f3cddcfa95ac9c4dea3ca8490bf4392.jpg",
+  "width": 640,
+  "height": 640,
+  "words": [
+    {
+      "text": "Bank",
+      "bbox": [
+        174,
+        57,
+        249,
+        73
+      ],
+      "score": 0.95
+    },
+    {
+      "text": "IVILEGE",
+      "bbox": [
+        848,
+        44,
+        914,
+        64
+      ],
+      "score": 0.85
+    },
+    {
+      "text": "reed",
+      "bbox": [
+        461,
+        81,
+        492,
+        118
+      ],
+      "score": 0.62
+    },
+    {
+      "text": "078",
+      "bbox": [
+        686,
+        91,
+        708,
+        99
+      ],
+      "score": 0.61
+    },
+    {
+      "text": "ben",
+      "bbox": [
+        52,
+        115,
+        87,
+        154
+      ],
+      "score": 0.75
+    },
+    {
+      "text": "mo",
+      "bbox": [
+        90,
+        225,
+        114,
+        233
+      ],
+      "score": 0.63
+    },
+    {
+      "text": "ne",
+      "bbox": [
+        749,
+        526,
+        777,
+        534
+      ],
+      "score": 0.75
+    },
+    {
+      "text": "pune",
+      "bbox": [
+        48,
+        660,
+        108,
+        668
+      ],
+      "score": 0.62
+    },
+    {
+      "text": "ne",
+      "bbox": [
+        746,
+        646,
+        775,
+        653
+      ],
+      "score": 0.61
+    },
+    {
+      "text": "=",
+      "bbox": [
+        215,
+        863,
+        244,
+        871
+      ],
+      "score": 0.79
+    },
+    {
+      "text": "ne",
+      "bbox": [
+        838,
+        849,
+        889,
+        857
+      ],
+      "score": 0.64
+    }
+  ]
+}

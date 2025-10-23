@@ -1,0 +1,77 @@
+{
+  "image_path": "/Volumes/Peach/uwezo_capstone_project/uwezo_project/processed/images/test/kotak-page-00010_jpg.rf.06fb599a80d1f91129c2143d4c636342.jpg",
+  "width": 640,
+  "height": 640,
+  "words": [
+    {
+      "text": "10",
+      "bbox": [
+        129,
+        168,
+        140,
+        174
+      ],
+      "score": 0.79
+    },
+    {
+      "text": "am",
+      "bbox": [
+        127,
+        179,
+        168,
+        185
+      ],
+      "score": 0.61
+    },
+    {
+      "text": "Sew",
+      "bbox": [
+        144,
+        274,
+        161,
+        295
+      ],
+      "score": 0.61
+    },
+    {
+      "text": "=",
+      "bbox": [
+        235,
+        306,
+        249,
+        313
+      ],
+      "score": 0.77
+    },
+    {
+      "text": "MY",
+      "bbox": [
+        237,
+        395,
+        254,
+        402
+      ],
+      "score": 0.7
+    },
+    {
+      "text": "“UPL",
+      "bbox": [
+        465,
+        400,
+        486,
+        407
+      ],
+      "score": 0.61
+    },
+    {
+      "text": "ae",
+      "bbox": [
+        632,
+        532,
+        661,
+        539
+      ],
+      "score": 0.66
+    }
+  ]
+}

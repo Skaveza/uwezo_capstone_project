@@ -1,0 +1,47 @@
+{
+  "image_path": "/Volumes/Peach/uwezo_capstone_project/uwezo_project/processed/images/test/idfc-page-00002_jpg.rf.18754659a2336929372592953c66ddc8.jpg",
+  "width": 640,
+  "height": 640,
+  "words": [
+    {
+      "text": "—",
+      "bbox": [
+        58,
+        223,
+        115,
+        272
+      ],
+      "score": 0.68
+    },
+    {
+      "text": "=|",
+      "bbox": [
+        516,
+        227,
+        578,
+        274
+      ],
+      "score": 0.75
+    },
+    {
+      "text": "—",
+      "bbox": [
+        580,
+        231,
+        659,
+        280
+      ],
+      "score": 0.61
+    },
+    {
+      "text": "—",
+      "bbox": [
+        60,
+        291,
+        126,
+        315
+      ],
+      "score": 0.68
+    }
+  ]
+}

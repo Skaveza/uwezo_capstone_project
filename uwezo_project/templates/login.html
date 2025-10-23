@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Uwezo Login</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://unpkg.com/alpinejs" defer></script>
+</head>
+<body class="bg-gradient-to-br from-gray-100 to-gray-300 min-h-screen flex items-center justify-center">
+  <div x-data="loginForm()" class="bg-white shadow-xl rounded-xl w-full max-w-md p-6">
+    <h2 class="text-2xl font-semibold text-gray-800 mb-6 text-center">Uwezo Dashboard Login</h2>
+    <form @submit.prevent="login">
+      <div class="mb-4">
+        <label class="block text-sm font-medium text-gray-600">Email</label>
+        <input type="email" x-model="email" class="w-full mt-1 p-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500" required>
+      </div>
+      <div class="mb-4">
+        <label class="block text-sm font-medium text-gray-600">Password</label>
+        <input type="password" x-model="password" class="w-full mt-1 p-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500" required>
+      </div>
+
+      <template x-if="error">
+        <div class="text-red-600 text-sm mb-3" x-text="error"></div>
+      </template>
+
+      <button type="submit" class="w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 rounded-lg" :disabled="loading">
+        <span x-show="!loading">Login</span>
+        <span x-show="loading" class="flex justify-center items-center">
+          <svg class="animate-spin h-5 w-5 text-white" viewBox="0 0 24 24">
+            <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4" fill="none" />
+            <path fill="currentColor" d="M4 12a8 8 0 018-8v8z" />
+          </svg>
+        </span>
+      </button>
+    </form>
+  </div>
+
+  <script>
+    function loginForm() {
+      return {
+        email: '',
+        password: '',
+        loading: false,
+        error: '',
+
+        async login() {
+          this.loading = true;
+          this.error = '';
+
+          try {
+            const res = await fetch('/login/', {
+              method: 'POST',
+              headers: { 'Content-Type': 'application/json' },
+              body: JSON.stringify({ email: this.email, password: this.password })
+            });
+
+            const data = await res.json();
+
+            if (!res.ok) throw new Error(data.detail || data.message || 'Login failed');
+
+            // Store user info in local storage for later use
+            localStorage.setItem('user', JSON.stringify(data));
+            // Redirect to dashboard (change to your main page)
+            window.location.href = '/dashboard.html';
+          } catch (err) {
+            this.error = err.message;
+          } finally {
+            this.loading = false;
+          }
+        }
+      }
+    }
+  </script>
+</body>
+</html>

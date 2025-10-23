@@ -1,31 +1,35 @@
-from reportlab.pdfgen import canvas
-from io import BytesIO
-from datetime import datetime
+# app/services/extraction.py
+
+from pathlib import Path
+from src.layout_inference import predict_fields  # move your notebook inference here
+from src.flagging import (
+    check_numeric_consistency,
+    detect_forensic_tampering,
+    aggregate_flags,
+)
 
 def extract_with_ai(file_path: str):
     """
-    Placeholder for actual AI extraction logic.
-    Replace with your YOLOv8/Tesseract/LayoutLMv3 extraction when ready.
+    run model inference + flagging.
     """
-    # Example output structure
+    # Step 1 − Existing extraction step
+    extracted = some_existing_extraction_logic(file_path) 
+    img_path = Path("processed/images/val") / (Path(file_path).stem + ".jpg")
+    ocr_json = Path("processed/ocr/val") / (img_path.stem + ".json")
+
+    # Step 2 − LayoutLMv3 inference
+    if not (img_path.exists() and ocr_json.exists()):
+        return {"error": f"Missing OCR or processed image for {file_path}"}
+
+    fields = predict_fields(img_path, ocr_json)
+
+    # Step 3 − Two‑part risk flagging
+    numeric_res = check_numeric_consistency(fields)
+    vision_res = detect_forensic_tampering(img_path)
+    combined = aggregate_flags(numeric_res, vision_res)
+
     return {
-        "result": f"AI extraction not implemented yet. Received file: {file_path}"
+        "fields": fields,
+        "flagging": combined,
+        "extraction_meta": extracted,
     }
-
-def generate_verified_report(document_id):
-    """
-    Generates a stamped/verified PDF for final output.
-    """
-    buffer = BytesIO()
-    c = canvas.Canvas(buffer)
-    c.setFont("Helvetica-Bold", 14)
-    c.drawString(40, 800, f"Uwezo Verified Document #{document_id}")
-    c.drawString(40, 785, f"Verified at {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
-    c.drawString(450, 785, "✔ VERIFIED")
-
-    # Placeholder: Add extracted summary or annotated fields from DB here
-    c.setFont("Helvetica", 11)
-    c.drawString(40, 760, "Reviewed by Audit Team - All suspicious items addressed.")
-    c.save()
-    buffer.seek(0)
-    return buffer

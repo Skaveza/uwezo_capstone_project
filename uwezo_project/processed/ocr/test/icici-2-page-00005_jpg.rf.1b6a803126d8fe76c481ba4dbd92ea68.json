@@ -1,0 +1,77 @@
+{
+  "image_path": "/Volumes/Peach/uwezo_capstone_project/uwezo_project/processed/images/test/icici-2-page-00005_jpg.rf.1b6a803126d8fe76c481ba4dbd92ea68.jpg",
+  "width": 474,
+  "height": 630,
+  "words": [
+    {
+      "text": "{",
+      "bbox": [
+        544,
+        78,
+        550,
+        104
+      ],
+      "score": 0.65
+    },
+    {
+      "text": "—",
+      "bbox": [
+        220,
+        392,
+        229,
+        427
+      ],
+      "score": 0.72
+    },
+    {
+      "text": "|",
+      "bbox": [
+        178,
+        426,
+        259,
+        479
+      ],
+      "score": 0.62
+    },
+    {
+      "text": "=|",
+      "bbox": [
+        23,
+        631,
+        54,
+        657
+      ],
+      "score": 0.84
+    },
+    {
+      "text": "{",
+      "bbox": [
+        621,
+        631,
+        628,
+        657
+      ],
+      "score": 0.6
+    },
+    {
+      "text": "7",
+      "bbox": [
+        695,
+        631,
+        705,
+        657
+      ],
+      "score": 0.73
+    },
+    {
+      "text": "=",
+      "bbox": [
+        531,
+        821,
+        542,
+        828
+      ],
+      "score": 0.65
+    }
+  ]
+}

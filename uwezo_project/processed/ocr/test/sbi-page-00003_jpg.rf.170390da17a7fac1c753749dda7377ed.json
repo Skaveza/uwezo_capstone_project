@@ -1,0 +1,17 @@
+{
+  "image_path": "/Volumes/Peach/uwezo_capstone_project/uwezo_project/processed/images/test/sbi-page-00003_jpg.rf.170390da17a7fac1c753749dda7377ed.jpg",
+  "width": 572,
+  "height": 593,
+  "words": [
+    {
+      "text": "_",
+      "bbox": [
+        108,
+        594,
+        127,
+        649
+      ],
+      "score": 0.65
+    }
+  ]
+}

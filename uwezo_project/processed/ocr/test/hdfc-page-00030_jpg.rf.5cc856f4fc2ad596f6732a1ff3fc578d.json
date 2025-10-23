@@ -1,0 +1,147 @@
+{
+  "image_path": "/Volumes/Peach/uwezo_capstone_project/uwezo_project/processed/images/test/hdfc-page-00030_jpg.rf.5cc856f4fc2ad596f6732a1ff3fc578d.jpg",
+  "width": 640,
+  "height": 640,
+  "words": [
+    {
+      "text": "|",
+      "bbox": [
+        251,
+        38,
+        265,
+        76
+      ],
+      "score": 0.96
+    },
+    {
+      "text": "We",
+      "bbox": [
+        41,
+        50,
+        71,
+        91
+      ],
+      "score": 0.66
+    },
+    {
+      "text": "Statement",
+      "bbox": [
+        516,
+        259,
+        677,
+        273
+      ],
+      "score": 0.85
+    },
+    {
+      "text": "of",
+      "bbox": [
+        594,
+        251,
+        607,
+        281
+      ],
+      "score": 0.96
+    },
+    {
+      "text": "un",
+      "bbox": [
+        113,
+        288,
+        132,
+        295
+      ],
+      "score": 0.78
+    },
+    {
+      "text": "ne",
+      "bbox": [
+        686,
+        383,
+        713,
+        390
+      ],
+      "score": 0.63
+    },
+    {
+      "text": "FOR",
+      "bbox": [
+        203,
+        480,
+        223,
+        501
+      ],
+      "score": 0.64
+    },
+    {
+      "text": "KUMAR",
+      "bbox": [
+        193,
+        492,
+        234,
+        529
+      ],
+      "score": 0.6
+    },
+    {
+      "text": "|",
+      "bbox": [
+        415,
+        492,
+        428,
+        529
+      ],
+      "score": 0.63
+    },
+    {
+      "text": "re",
+      "bbox": [
+        218,
+        566,
+        233,
+        601
+      ],
+      "score": 0.68
+    },
+    {
+      "text": "|",
+      "bbox": [
+        417,
+        691,
+        431,
+        728
+      ],
+      "score": 0.61
+    },
+    {
+      "text": "PY",
+      "bbox": [
+        281,
+        707,
+        293,
+        740
+      ],
+      "score": 0.76
+    },
+    {
+      "text": "34",
+      "bbox": [
+        693,
+        834,
+        703,
+        842
+      ],
+      "score": 0.78
+    },
+    {
+      "text": "oun",
+      "bbox": [
+        121,
+        856,
+        156,
+        864
+      ],
+      "score": 0.72
+    }
+  ]
+}

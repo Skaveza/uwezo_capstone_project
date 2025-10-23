@@ -1,0 +1,87 @@
+{
+  "image_path": "/Volumes/Peach/uwezo_capstone_project/uwezo_project/processed/images/test/maharashtra-page-00001_jpg.rf.a9d273d65fe0c48bb94ef3cf968e2bda.jpg",
+  "width": 640,
+  "height": 640,
+  "words": [
+    {
+      "text": "Account",
+      "bbox": [
+        370,
+        392,
+        413,
+        423
+      ],
+      "score": 0.84
+    },
+    {
+      "text": "No",
+      "bbox": [
+        419,
+        392,
+        428,
+        423
+      ],
+      "score": 0.91
+    },
+    {
+      "text": "|",
+      "bbox": [
+        37,
+        434,
+        44,
+        472
+      ],
+      "score": 0.6
+    },
+    {
+      "text": "|",
+      "bbox": [
+        97,
+        434,
+        104,
+        472
+      ],
+      "score": 0.96
+    },
+    {
+      "text": "|",
+      "bbox": [
+        89,
+        699,
+        100,
+        761
+      ],
+      "score": 0.75
+    },
+    {
+      "text": "|",
+      "bbox": [
+        86,
+        762,
+        96,
+        797
+      ],
+      "score": 0.67
+    },
+    {
+      "text": "[",
+      "bbox": [
+        24,
+        786,
+        33,
+        820
+      ],
+      "score": 0.82
+    },
+    {
+      "text": "|",
+      "bbox": [
+        83,
+        786,
+        92,
+        820
+      ],
+      "score": 0.79
+    }
+  ]
+}

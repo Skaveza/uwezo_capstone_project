@@ -1,0 +1,47 @@
+{
+  "image_path": "/Volumes/Peach/uwezo_capstone_project/uwezo_project/processed/images/test/pnb1_page-0003_jpg.rf.532085cf0762ee88d9598d988992079d.jpg",
+  "width": 640,
+  "height": 640,
+  "words": [
+    {
+      "text": "“Account",
+      "bbox": [
+        260,
+        6,
+        322,
+        40
+      ],
+      "score": 0.68
+    },
+    {
+      "text": "Statement",
+      "bbox": [
+        330,
+        6,
+        399,
+        40
+      ],
+      "score": 0.69
+    },
+    {
+      "text": "for",
+      "bbox": [
+        407,
+        6,
+        425,
+        40
+      ],
+      "score": 0.94
+    },
+    {
+      "text": "Account",
+      "bbox": [
+        432,
+        6,
+        487,
+        40
+      ],
+      "score": 0.7
+    }
+  ]
+}

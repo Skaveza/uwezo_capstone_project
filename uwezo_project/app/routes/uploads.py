@@ -6,7 +6,6 @@ import os
 from datetime import datetime
 
 router = APIRouter()
-
 UPLOAD_DIR = "uploads"
 os.makedirs(UPLOAD_DIR, exist_ok=True)
 
@@ -40,3 +39,22 @@ async def upload_document(
         "upload_id": upload.id,
         "filename": safe_filename
     }
+
+# GET all uploads for dashboard stats
+@router.get("/upload/")
+def get_uploads(db: Session = Depends(get_db)):
+    uploads = db.query(models.Upload).all()
+    # If your model has `flagged` and `confidence_score` fields, include them here
+    results = [
+        {
+            "id": u.id,
+            "filename": u.filename,
+            "flagged": getattr(u, "flagged", False),  # Adjust as needed
+            "processed": u.processed,
+            "processing_purpose": u.processing_purpose,
+            "confidence_score": getattr(u, "confidence_score", None),  # Adjust as needed
+            # Add other fields needed for dashboard
+        }
+        for u in uploads
+    ]
+    return results

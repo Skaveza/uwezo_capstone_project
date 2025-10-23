@@ -1,0 +1,27 @@
+{
+  "image_path": "/Volumes/Peach/uwezo_capstone_project/uwezo_project/processed/images/test/icici-2-page-00007_jpg.rf.c590d4845dc0c36e28a9014c038cf017.jpg",
+  "width": 474,
+  "height": 631,
+  "words": [
+    {
+      "text": ":",
+      "bbox": [
+        27,
+        715,
+        36,
+        750
+      ],
+      "score": 0.84
+    },
+    {
+      "text": ":",
+      "bbox": [
+        27,
+        814,
+        37,
+        850
+      ],
+      "score": 0.65
+    }
+  ]
+}

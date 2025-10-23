@@ -1,0 +1,137 @@
+{
+  "image_path": "/Volumes/Peach/uwezo_capstone_project/uwezo_project/processed/images/test/axis-page-00003_jpg.rf.0e8e624eeebb1555ae0f015b6726edfc.jpg",
+  "width": 572,
+  "height": 587,
+  "words": [
+    {
+      "text": "1886",
+      "bbox": [
+        209,
+        112,
+        283,
+        120
+      ],
+      "score": 0.64
+    },
+    {
+      "text": "on",
+      "bbox": [
+        239,
+        104,
+        252,
+        129
+      ],
+      "score": 0.9
+    },
+    {
+      "text": "|",
+      "bbox": [
+        842,
+        162,
+        850,
+        186
+      ],
+      "score": 0.7
+    },
+    {
+      "text": "|",
+      "bbox": [
+        845,
+        384,
+        854,
+        415
+      ],
+      "score": 0.94
+    },
+    {
+      "text": "ga",
+      "bbox": [
+        194,
+        534,
+        204,
+        560
+      ],
+      "score": 0.7
+    },
+    {
+      "text": "|",
+      "bbox": [
+        846,
+        534,
+        854,
+        560
+      ],
+      "score": 0.65
+    },
+    {
+      "text": "hes",
+      "bbox": [
+        52,
+        679,
+        71,
+        687
+      ],
+      "score": 0.73
+    },
+    {
+      "text": "found",
+      "bbox": [
+        75,
+        679,
+        108,
+        687
+      ],
+      "score": 0.86
+    },
+    {
+      "text": "Ure",
+      "bbox": [
+        112,
+        679,
+        129,
+        687
+      ],
+      "score": 0.62
+    },
+    {
+      "text": "cand",
+      "bbox": [
+        43,
+        740,
+        68,
+        748
+      ],
+      "score": 0.86
+    },
+    {
+      "text": "nummer",
+      "bbox": [
+        72,
+        740,
+        115,
+        748
+      ],
+      "score": 0.62
+    },
+    {
+      "text": "wo",
+      "bbox": [
+        430,
+        741,
+        441,
+        748
+      ],
+      "score": 0.77
+    },
+    {
+      "text": "any",
+      "bbox": [
+        714,
+        742,
+        735,
+        757
+      ],
+      "score": 0.64
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "image_path": "/Volumes/Peach/uwezo_capstone_project/uwezo_project/processed/images/test/axis-3-page-00032_jpg.rf.24d195a491396b6407a845269a932147.jpg",
+  "width": 640,
+  "height": 640,
+  "words": [
+    {
+      "text": "MRO",
+      "bbox": [
+        302,
+        243,
+        323,
+        251
+      ],
+      "score": 0.74
+    },
+    {
+      "text": "|",
+      "bbox": [
+        881,
+        248,
+        889,
+        280
+      ],
+      "score": 0.83
+    },
+    {
+      "text": "Add",
+      "bbox": [
+        333,
+        526,
+        356,
+        548
+      ],
+      "score": 0.62
+    },
+    {
+      "text": "NARASINGH",
+      "bbox": [
+        330,
+        558,
+        416,
+        566
+      ],
+      "score": 0.84
+    },
+    {
+      "text": "|",
+      "bbox": [
+        864,
+        550,
+        873,
+        581
+      ],
+      "score": 0.86
+    },
+    {
+      "text": "Vex",
+      "bbox": [
+        222,
+        586,
+        244,
+        612
+      ],
+      "score": 0.66
+    },
+    {
+      "text": "Dank",
+      "bbox": [
+        252,
+        586,
+        279,
+        612
+      ],
+      "score": 0.72
+    },
+    {
+      "text": "20",
+      "bbox": [
+        541,
+        584,
+        557,
+        610
+      ],
+      "score": 0.78
+    },
+    {
+      "text": "LP",
+      "bbox": [
+        177,
+        633,
+        198,
+        641
+      ],
+      "score": 0.64
+    },
+    {
+      "text": "MUHAMMED",
+      "bbox": [
+        345,
+        633,
+        434,
+        641
+      ],
+      "score": 0.88
+    },
+    {
+      "text": "20",
+      "bbox": [
+        524,
+        861,
+        540,
+        888
+      ],
+      "score": 0.67
+    }
+  ]
+}

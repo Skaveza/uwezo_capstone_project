@@ -1,0 +1,137 @@
+{
+  "image_path": "/Volumes/Peach/uwezo_capstone_project/uwezo_project/processed/images/test/pnb2_page-0001_jpg.rf.6dc4d2e3d36788bb1b8caec7714f2ed5.jpg",
+  "width": 640,
+  "height": 640,
+  "words": [
+    {
+      "text": "Account",
+      "bbox": [
+        301,
+        94,
+        359,
+        105
+      ],
+      "score": 0.94
+    },
+    {
+      "text": "Statement",
+      "bbox": [
+        364,
+        94,
+        437,
+        105
+      ],
+      "score": 0.71
+    },
+    {
+      "text": "For",
+      "bbox": [
+        442,
+        94,
+        466,
+        105
+      ],
+      "score": 0.93
+    },
+    {
+      "text": "Account:06782010001670",
+      "bbox": [
+        470,
+        94,
+        658,
+        105
+      ],
+      "score": 0.63
+    },
+    {
+      "text": "Customer",
+      "bbox": [
+        46,
+        301,
+        108,
+        311
+      ],
+      "score": 0.93
+    },
+    {
+      "text": "|",
+      "bbox": [
+        131,
+        773,
+        149,
+        802
+      ],
+      "score": 0.62
+    },
+    {
+      "text": "|",
+      "bbox": [
+        211,
+        773,
+        226,
+        802
+      ],
+      "score": 0.62
+    },
+    {
+      "text": "46",
+      "bbox": [
+        588,
+        790,
+        601,
+        819
+      ],
+      "score": 0.92
+    },
+    {
+      "text": "Cr.",
+      "bbox": [
+        607,
+        790,
+        623,
+        819
+      ],
+      "score": 0.61
+    },
+    {
+      "text": "|",
+      "bbox": [
+        624,
+        790,
+        630,
+        819
+      ],
+      "score": 0.71
+    },
+    {
+      "text": "|",
+      "bbox": [
+        133,
+        838,
+        144,
+        867
+      ],
+      "score": 0.82
+    },
+    {
+      "text": "CASH",
+      "bbox": [
+        633,
+        849,
+        666,
+        857
+      ],
+      "score": 0.72
+    },
+    {
+      "text": "DEPOSIT",
+      "bbox": [
+        671,
+        849,
+        725,
+        857
+      ],
+      "score": 0.73
+    }
+  ]
+}

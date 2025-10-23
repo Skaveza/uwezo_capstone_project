@@ -1,0 +1,107 @@
+{
+  "image_path": "/Volumes/Peach/uwezo_capstone_project/uwezo_project/processed/images/test/kotak-page-00017_jpg.rf.777586563125dc0cb5c3c36b0787df4d.jpg",
+  "width": 635,
+  "height": 640,
+  "words": [
+    {
+      "text": "SHIVAM",
+      "bbox": [
+        218,
+        70,
+        277,
+        80
+      ],
+      "score": 0.77
+    },
+    {
+      "text": "210",
+      "bbox": [
+        81,
+        197,
+        99,
+        204
+      ],
+      "score": 0.61
+    },
+    {
+      "text": "MAT",
+      "bbox": [
+        317,
+        225,
+        339,
+        258
+      ],
+      "score": 0.65
+    },
+    {
+      "text": "=e",
+      "bbox": [
+        597,
+        361,
+        627,
+        368
+      ],
+      "score": 0.67
+    },
+    {
+      "text": "#2",
+      "bbox": [
+        88,
+        500,
+        101,
+        506
+      ],
+      "score": 0.71
+    },
+    {
+      "text": "den",
+      "bbox": [
+        106,
+        489,
+        122,
+        514
+      ],
+      "score": 0.64
+    },
+    {
+      "text": "7023",
+      "bbox": [
+        127,
+        489,
+        150,
+        514
+      ],
+      "score": 0.64
+    },
+    {
+      "text": "UPL",
+      "bbox": [
+        192,
+        489,
+        216,
+        513
+      ],
+      "score": 0.62
+    },
+    {
+      "text": "hare",
+      "bbox": [
+        346,
+        493,
+        366,
+        526
+      ],
+      "score": 0.66
+    },
+    {
+      "text": "06",
+      "bbox": [
+        82,
+        600,
+        95,
+        607
+      ],
+      "score": 0.67
+    }
+  ]
+}

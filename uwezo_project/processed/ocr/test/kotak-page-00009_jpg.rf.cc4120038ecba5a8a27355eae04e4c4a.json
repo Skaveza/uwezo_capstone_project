@@ -1,0 +1,87 @@
+{
+  "image_path": "/Volumes/Peach/uwezo_capstone_project/uwezo_project/processed/images/test/kotak-page-00009_jpg.rf.cc4120038ecba5a8a27355eae04e4c4a.jpg",
+  "width": 640,
+  "height": 640,
+  "words": [
+    {
+      "text": "|",
+      "bbox": [
+        211,
+        49,
+        222,
+        88
+      ],
+      "score": 0.72
+    },
+    {
+      "text": "Agr",
+      "bbox": [
+        396,
+        60,
+        416,
+        93
+      ],
+      "score": 0.69
+    },
+    {
+      "text": "Mit",
+      "bbox": [
+        476,
+        60,
+        496,
+        93
+      ],
+      "score": 0.62
+    },
+    {
+      "text": "2078",
+      "bbox": [
+        176,
+        178,
+        198,
+        207
+      ],
+      "score": 0.68
+    },
+    {
+      "text": "0?",
+      "bbox": [
+        145,
+        427,
+        158,
+        434
+      ],
+      "score": 0.67
+    },
+    {
+      "text": "Sop",
+      "bbox": [
+        163,
+        419,
+        180,
+        442
+      ],
+      "score": 0.71
+    },
+    {
+      "text": "te",
+      "bbox": [
+        455,
+        649,
+        468,
+        656
+      ],
+      "score": 0.6
+    },
+    {
+      "text": "298,728.62",
+      "bbox": [
+        811,
+        769,
+        880,
+        779
+      ],
+      "score": 0.65
+    }
+  ]
+}
