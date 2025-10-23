@@ -1,0 +1,77 @@
+{
+  "image_path": "/Volumes/Peach/uwezo_capstone_project/uwezo_project/processed/images/train/axis-2-page-00001_jpg.rf.a8759ed013c71d2d3511098221eeab5a.jpg",
+  "width": 640,
+  "height": 640,
+  "words": [
+    {
+      "text": "UCR",
+      "bbox": [
+        732,
+        204,
+        765,
+        213
+      ],
+      "score": 0.67
+    },
+    {
+      "text": "Mobile",
+      "bbox": [
+        160,
+        199,
+        216,
+        210
+      ],
+      "score": 0.66
+    },
+    {
+      "text": "Na",
+      "bbox": [
+        204,
+        189,
+        221,
+        221
+      ],
+      "score": 0.6
+    },
+    {
+      "text": "Scheme",
+      "bbox": [
+        99,
+        225,
+        140,
+        236
+      ],
+      "score": 0.63
+    },
+    {
+      "text": "PHIML",
+      "bbox": [
+        148,
+        228,
+        187,
+        238
+      ],
+      "score": 0.78
+    },
+    {
+      "text": "oF",
+      "bbox": [
+        249,
+        255,
+        261,
+        263
+      ],
+      "score": 0.71
+    },
+    {
+      "text": "Account",
+      "bbox": [
+        264,
+        255,
+        316,
+        266
+      ],
+      "score": 0.77
+    }
+  ]
+}

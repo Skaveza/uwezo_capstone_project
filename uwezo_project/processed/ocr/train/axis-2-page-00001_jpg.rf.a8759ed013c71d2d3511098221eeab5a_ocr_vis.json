@@ -1,0 +1,137 @@
+{
+  "image_path": "/Volumes/Peach/uwezo_capstone_project/uwezo_project/processed/images/train/axis-2-page-00001_jpg.rf.a8759ed013c71d2d3511098221eeab5a_ocr_vis.jpg",
+  "width": 640,
+  "height": 640,
+  "words": [
+    {
+      "text": "com",
+      "bbox": [
+        319,
+        226,
+        342,
+        233
+      ],
+      "score": 0.79
+    },
+    {
+      "text": "PAN",
+      "bbox": [
+        748,
+        249,
+        773,
+        258
+      ],
+      "score": 0.67
+    },
+    {
+      "text": "Statement",
+      "bbox": [
+        180,
+        250,
+        243,
+        262
+      ],
+      "score": 0.72
+    },
+    {
+      "text": "of",
+      "bbox": [
+        250,
+        255,
+        261,
+        263
+      ],
+      "score": 0.85
+    },
+    {
+      "text": "Account",
+      "bbox": [
+        264,
+        255,
+        316,
+        266
+      ],
+      "score": 0.86
+    },
+    {
+      "text": "the",
+      "bbox": [
+        484,
+        264,
+        501,
+        289
+      ],
+      "score": 0.72
+    },
+    {
+      "text": "peried",
+      "bbox": [
+        509,
+        264,
+        547,
+        289
+      ],
+      "score": 0.68
+    },
+    {
+      "text": "(From",
+      "bbox": [
+        552,
+        264,
+        589,
+        289
+      ],
+      "score": 0.8
+    },
+    {
+      "text": "KUM",
+      "bbox": [
+        422,
+        463,
+        448,
+        472
+      ],
+      "score": 0.65
+    },
+    {
+      "text": "|",
+      "bbox": [
+        165,
+        489,
+        177,
+        537
+      ],
+      "score": 0.71
+    },
+    {
+      "text": "ret",
+      "bbox": [
+        241,
+        537,
+        269,
+        549
+      ],
+      "score": 0.61
+    },
+    {
+      "text": "3837",
+      "bbox": [
+        840,
+        768,
+        865,
+        793
+      ],
+      "score": 0.6
+    },
+    {
+      "text": "[",
+      "bbox": [
+        830,
+        830,
+        836,
+        862
+      ],
+      "score": 0.61
+    }
+  ]
+}

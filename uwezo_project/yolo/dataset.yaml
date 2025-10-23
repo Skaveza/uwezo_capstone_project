@@ -1,6 +1,7 @@
 path: /Volumes/Peach/uwezo_capstone_project/uwezo_project/yolo
 train: images/train
 val: images/val
+test: images/test
 
 names:
   0: table_transactions_data

@@ -7,10 +7,13 @@
 # Python
 __pycache__/
 *.pyc
-.ipynb_checkpoints/
+migrations/versions/*.pyc
+migrations/__pycache__/
 .venv*/
 .env
 *.log
+*.db
+*.sqlite3
 
 # Node / frontend
 node_modules/
@@ -34,3 +37,11 @@ artifacts/
 
 # EDA image dumps
 *_viz_*.jpg
+
+# DB dump files
+*.sql
+
+# Environment and secrets
+.env.*
+.envrc
+*.secret
