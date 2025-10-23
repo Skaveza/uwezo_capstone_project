@@ -2,7 +2,7 @@ from fastapi import FastAPI, Depends
 from sqlalchemy.orm import Session
 from . import models, crud, schemas
 from .database import engine, get_db  
-from .routes import analyze, review, pdf_report
+from .routes import analyze, review, pdf_report, upload, retrain
 
 models.Base.metadata.create_all(bind=engine)
 
@@ -30,7 +30,10 @@ def get_audit_logs(db: Session = Depends(get_db)):
     logs, = crud.get_audit_logs(db)
     return logs
 
-# Include only routers that have endpoints
+# Include routes
+app.include_router(upload.router)
 app.include_router(analyze.router)
 app.include_router(review.router)
 app.include_router(pdf_report.router)
+app.include_router(retrain.router)
+

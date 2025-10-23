@@ -27,12 +27,14 @@ def create_audit(db: Session, audit: schemas.AuditTrailCreate):
 def get_audit_logs(db: Session):
     return db.query(models.AuditTrail).all()
 
-def create_upload(db: Session, filename: str):
+def create_upload(db: Session, filename: str, user_id: int, file_path: str, processing_purpose: str = None):
     new_upload = models.Upload(
         filename=filename,
         uploaded_at=datetime.utcnow(),
+        user_id=user_id,
+        file_path=file_path,
         expires_at=None,
-        processing_purpose=None,
+        processing_purpose=processing_purpose,
         processed=False
     )
     db.add(new_upload)
